@@ -12,6 +12,7 @@ This Module has the following methods
  * [Array union](#aounionab)
  * [Array diff](#aodiffab)
  * [Array compact](#aocompacta)
+ * [Array compress](#aocompressa)
  * [Object combine](#aocombineobj1obj2)
  * [Object clone](#aoclone{}obj1)
  * [Object sort](#aosortobj)
@@ -31,7 +32,7 @@ The `ao` object creates a reference for the aoutils module inheriting all the me
 
 ### ao.union(a,b)
 
-Returns a `array` with only unique values in `a` and `b`.Accepts only arrays
+Returns a `array` with only unique values in `a` and `b`.Accepts only arrays and supports multi dimensional array
 
 ####a
 
@@ -43,7 +44,7 @@ Returns a `array` with only unique values in `a` and `b`.Accepts only arrays
 
 ### ao.diff(a,b)
 
-Returns a `array` with only commong values of `a` and `b`.Accept only arrays
+Returns a `array` with only commong values of `a` and `b`.Accept only arrays and supports multi dimensional array
 
 ####a
 
@@ -55,11 +56,20 @@ Returns a `array` with only commong values of `a` and `b`.Accept only arrays
 
 ### ao.compact(a)
 
-Return a array without duplicates.Will not modify the supplied array though
+Return a array without duplicates.Will not modify the supplied array though and also supports multi dimensional array
 
 ####a
 
 `array` to passed which has redundant values
+
+### ao.compress(a)
+
+Compress the supplied multidimensional array and return the resultant one dimensional array.
+Although it does not modify the supplied array.
+
+####a
+
+Multidimensional array of any depth.
 
 ### ao.combine(obj1,[obj2..objn])
 
