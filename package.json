@@ -1,6 +1,6 @@
 {
   "name": "arrayobj_utils",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Array and Object Utility operations such as union diff sort etc",
   "main": "index.js",
   "scripts": {
