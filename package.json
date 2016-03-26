@@ -1,0 +1,19 @@
+{
+  "name": "arrayobj_utils",
+  "version": "1.0.3",
+  "description": "Array and Object Utility operations such as union diff sort etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Array",
+    "union",
+    "Object",
+    "Sort",
+    "array",
+    "diff"
+  ],
+  "author": "vijayk93 <vjkrishna689@gmail.com>",
+  "license": "ISC"
+}
