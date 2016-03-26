@@ -7,12 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "Array",
-    "union",
-    "Object",
-    "Sort",
-    "array",
-    "diff"
+    "array union",
+    "array compact",
+    "object sort",
+    "array diff",
+    "array utils",
+    "object utils"
   ],
   "repository": {
     "type": "git",
