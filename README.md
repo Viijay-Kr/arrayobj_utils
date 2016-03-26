@@ -19,7 +19,7 @@ This Module has the following methods
 ##Installation
 
 ```sh 
- $npm install ao-utils
+ $npm install arrayobj_utils
 ```
 
 ##Api
