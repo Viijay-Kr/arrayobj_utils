@@ -1,4 +1,4 @@
-# arrayObj_utils
+# arrayobj_utils
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
@@ -98,7 +98,7 @@ Sorts a linear single key:value pairs and returns the sorted `object`.Though doe
 [ISC](LICENSE)
 
 [npm-image]: https://img.shields.io/npm/v/arrayobj_utils.svg
-[npm-url]: https://npmjs.org/package/arrayObj_utils
-[downloads-image]: https://img.shields.io/npm/dm/arrayObj_utils.svg
-[downloads-url]: https://npmjs.org/package/arrayObj_utils
-# arrayObjUtils
+[npm-url]: https://npmjs.org/package/arrayobj_utils
+[downloads-image]: https://img.shields.io/npm/dm/arrayobj_utils.svg
+[downloads-url]: https://npmjs.org/package/arrayobj_utils
+# arrayobj_utils
