@@ -16,6 +16,7 @@ This Module has the following methods
  * [Object combine](#aocombineobj1obj2)
  * [Object clone](#aoclone{}obj1)
  * [Object sort](#aosortobj)
+ * [Object reverse](#Objectreverse)
 
 ##Installation
 
@@ -102,6 +103,14 @@ Sorts a linear single key:value pairs and returns the sorted `object`.Though doe
 ####obj
 
 `Object` to be sorted.
+
+###Object.reverse()
+Return a new reversed Object.Does not modify the applied object
+```js
+ var obj={a:'foo',b:'bar'}
+ var reverse=obj.reverse()
+ //=> reverse=={b:'bar':a:'foo'} 
+```
 
 ## License
 
